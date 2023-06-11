@@ -10,6 +10,7 @@ function getPicture() {
             console.log(data)
             document.querySelector('h2').innerText = data.title
             document.querySelector('img').src = data.url
+           
             
         })
         .catch (err => {
